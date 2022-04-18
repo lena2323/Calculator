@@ -1,0 +1,70 @@
+
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.tryingTWO{
+
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: 200px;
+    grid-template-areas:
+      ". a a ."
+      ". a a ."
+      ". a a ."
+      ". a a .";
+  }
+
+
+
+.tryingTWO button{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+   border: solid 2px rgb(0, 128, 107);
+   background-color: rgb(122, 151, 149);
+
+}
+
+button:hover{
+    background-color: rgb(168, 201, 201);
+
+}
+
+button:active{
+    background-color: rgb(100, 124, 123);
+
+}
+
+.tryingBoxesTWO{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-area: a;
+    align-self: center;
+    justify-self: center;   
+}
+
+.pozadina{
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-bottom-right-radius: 200px;
+}
+
+@media only screen and (max-width: 768px){
+
+.tryingTWO button{
+max-width:50px;
+max-height:50px ;
+font-size: 10px;
+
+}
+
+
+}
