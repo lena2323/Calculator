@@ -6,7 +6,7 @@ body{
 }
 
 
-.tryingTWO{
+.background{
 
     grid-gap: 10px;
     display: grid;
@@ -22,7 +22,7 @@ body{
 
 
 
-.tryingTWO button{
+.background button{
     width: 100px;
     height: 100px;
     font-size: 20px;
@@ -41,7 +41,7 @@ button:active{
 
 }
 
-.tryingBoxesTWO{
+.boxes{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -51,15 +51,10 @@ button:active{
     justify-self: center;   
 }
 
-.pozadina{
-    background-color: aqua;
-    border: 2px solid aqua;
-    border-bottom-right-radius: 200px;
-}
 
 @media only screen and (max-width: 768px){
 
-.tryingTWO button{
+.background button{
 max-width:50px;
 max-height:50px ;
 font-size: 10px;
