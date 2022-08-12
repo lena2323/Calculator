@@ -31,6 +31,8 @@ button:hover{
 }
 
 button:active{
+    transition: 0s linear ;
+
     background-color: rgb(100, 124, 123);
 
 }
